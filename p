@@ -8,4 +8,6 @@ echo " "
 echo " "
 echo " "
 echo " "
-echo " MASUKAN PILIHAN.. "
+read -rp "Masukan pilihan :" nomor
+
+echo "${nomor}" >/data/data/com.termux/files/home
