@@ -19,3 +19,8 @@ read -p "Select From Options : " menu
 case $menu in
     1)
         bash vvv
+ ;;
+    2)
+        bash p
+  ;;
+esac
