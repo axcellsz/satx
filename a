@@ -2,6 +2,6 @@
 nomor=$(cat /data/data/com.termux/files/home/nomor)
 nama=$(cat /data/data/com.termux/files/home/nama)
 echo " "
-echo "$nomor"
+echo "$nomor bagong"
 echo "$nama"
 echo " "
