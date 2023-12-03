@@ -1,7 +1,4 @@
 #!/bin/bash
-nomor=$(cat /data/data/com.termux/files/home/nomor)
-nama=$(cat /data/data/com.termux/files/home/nama)
-echo " "
-echo "$nomor bagong"
-echo "$nama"
-echo " "
+read -rp "MASUKAN NOMOR :" nomor
+echo "${nomor}" >/data/data/com.termux/files/home/nomor
+
